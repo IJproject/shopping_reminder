@@ -9,27 +9,27 @@ export const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/',
+      path: '/shopping_reminder',
       name: 'main',
       component: List,
     },
     {
-      path: '/changeusername',
+      path: '/shopping_reminder/changeusername',
       name: 'changeusername',
       component: ChangeUser,
     },
     {
-      path: '/registershop',
+      path: '/shopping_reminder/registershop',
       name: 'registerShop',
       component: Register,
     },
     {
-      path: '/deleteshop',
+      path: '/shopping_reminder/deleteshop',
       name: 'deleteShop',
       component: Delete,
     },
     {
-      path: '/guide',
+      path: '/shopping_reminder/guide',
       name: 'guide',
       component: Guide,
     },
